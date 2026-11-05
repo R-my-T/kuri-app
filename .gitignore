@@ -1,0 +1,30 @@
+# Dependencies
+/node_modules/
+
+# Next.js generated files and build outputs
+/.next/
+/out/
+/build/
+/next-env.d.ts
+*.tsbuildinfo
+
+# Test coverage
+/coverage/
+
+# Local environment variables (keep shareable templates)
+.env*
+!.env.example
+!.env.*.example
+
+# Local deployment metadata
+/.vercel/
+
+# Package manager debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
